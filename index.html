@@ -27,47 +27,47 @@
 			i = Boy(<span class="string">"龙的三国"</span>);<br/>
 			u = Girl(<span class="string">"羊的羽毛"</span>);<br/>
 			<span class="comments"># 2024年11月，我们在无尽冬日中认识了彼此， </span><br/>
-			i.meet(u)<br/>
+			i meet u<br/>
 			<span class="comments"># 就在11月下旬，我加入了888。 </span><br/>
-			i.confess(u)<br/>
-			<span class="comments"># 2025年1月初我承认了对你的好感，1月中旬你承认了对我的好感。</span><br/>
-			u.accepted(i)<br/>
-			<span class="comments"># 从此之后，我们的心逐渐连在了一起。</span><br/>
-			happy(u, i)<br/>
+			i confess u<br/>
+			<span class="comments"># 2025年1月初我承认了对你的好感，</span><br/>
+			u accepted i<br/>
+			<span class="comments"># 1月中旬你承认了对我的好感。</span><br/>
+			happy u and i<br/>
 			<span class="comments"># 我们一起打熊。</span><br/>
-			study(u, i)<br/>
+
 			<span class="comments"># 我们一起打兵工厂</span><br/>
-			dine(u, i)<br/>
+
 			<span class="comments"># 我们一起打乔伊</span><br/>
-			appoint(u, i)<br/>
+
 			<span class="comments"># 我们没日没夜的聊天</span><br/>
-			vacation(u, i)<br/>
+			gift(u, i)<br/>
 			<span class="comments"># 2025年新年你送了我最棒的礼物。</span><br/>
-			conflict(u, i, sometimes=<span class="keyword">True</span>)<br/>
+			gift(u, i, sometimes=<span class="keyword">True</span>)<br/>
 			<span class="comments"># 我也送了你一个我认为用心的礼物。</span><br/>
-			u.in_harmony_with(i) <br/>
-			i.in_harmony_with(u) <br/>
+			u impression of  i<br/>
+			i impression of u<br/>
 			<span class="comments"># 你是我游戏中收获的最大惊喜！</span><br/>
 			while <span class="keyword">True</span>:<br/>
 			<span class="placeholder"></span><span class="keyword">if</span> u.with(i):<br/>
 			<span class="placeholder"></span><span class="placeholder"></span>u = everything<br/>
 			<span class="placeholder"></span><span class="keyword">else</span>:<br/>
 			<span class="placeholder"></span><span class="placeholder"></span>everything = u<br/>
-			<span class="comments"># Waiting me marries you, we will be the happiest couple in the world.</span><br/>
-			i.marry(u, in_the_future=<span class="keyword">True</span>)<br/>
-			i.live_happily_forever_with(u)<br/>
+			<span class="comments">#希望我们能成为游戏中最快乐的...</span><br/>
+			i.love(u, in_the_future=<span class="keyword">True</span>)<br/>
+			i  live_happily_forever_with  u<br/>
 			<span class="comments"># I love you forever.</span><br/>
 		</div>
 		<div id="loveHeart">
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					Qian, I have fallen in love with you for
+					羽毛，希望我们能长久！
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
 					Love u forever and ever.<br/>
-					<div class="signature">- Qingcai Cui | Germey</div>
+					<div class="signature">- 龙的三国 | 羊的羽毛</div>
 				</div>
 			</div>
 		</div>
@@ -81,9 +81,9 @@
 	var offsetY = $("#loveHeart").height() / 2 - 55;
 	var together = new Date();
 	// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
-	together.setFullYear(2024, 10, 5);
-	together.setHours(15);
-	together.setMinutes(0);
+	together.setFullYear(2024, 10, 16);
+	together.setHours(12);
+	together.setMinutes(38);
 	together.setSeconds(0);
 	together.setMilliseconds(0);
 
